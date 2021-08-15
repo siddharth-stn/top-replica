@@ -1,1 +1,79 @@
 @import url("https://siddharth-stn.github.io/my-grid-system/stylesheets/output.css");
+
+a {
+    color: inherit;
+}
+
+.title-bar {
+    padding-top: 10px;
+}
+
+.title-bar > div:first-child {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.title-bar > div:first-child > img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.title {
+    margin-left: 25px;
+}
+
+.navbar nav {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbar nav li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navbar nav li:last-child {
+    margin-right: none;
+}
+
+.navbar nav li img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.navbar li:nth-child(4) {
+    font-size: 1.3em;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+.main-header {
+    margin-top: 80px;
+}
+
+.main-header > h2 {
+    text-align: center;
+}
+
+.sub-main-header {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.2);
+    margin-top: 50px;
+    width: 100%;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.sub-main-header img {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.sub-main-header p {
+    line-height: 1.5;
+}
