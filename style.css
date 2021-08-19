@@ -4,6 +4,16 @@ a {
     color: inherit;
 }
 
+button {
+    cursor: pointer;
+}
+
+hr {
+    border-width: 1px;
+    border-bottom: none;
+    border-color: rgba(74,74,74,0.2);
+}
+
 .title-bar {
     padding-top: 10px;
 }
@@ -62,10 +72,11 @@ a {
 
 .sub-main-header {
     border-radius: 5px;
-    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.2);
+    box-shadow: 0px 6px 10px 1px rgba(0,0,0, 0.2);
     margin-top: 50px;
-    width: 100%;
-    padding: 30px 50px;
+    margin-left: 0;
+    width: 85%;
+    padding: 40px 50px;
     align-items: center;
 }
 
@@ -76,4 +87,158 @@ a {
 
 .sub-main-header p {
     line-height: 1.5;
+}
+
+.skills-heading {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sub-main-content {
+    margin-left: 0;
+    width: 85%;
+}
+
+.skill-para {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.paths {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.paths div:first-child  {
+    border: 8px solid rgb(150,184,116);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.paths > div > p:first-child {
+    margin-bottom: 10px;
+}
+
+.paths > div:nth-child(2) {
+    width: 110px;
+}
+
+.paths img {
+    width: 100px;
+}
+
+.paths button {
+    border-radius: 5px;
+    height: 55px;
+    background-color: rgb(106,191,195);
+    color: white;
+    border: none;
+}
+
+.path-javascript > button {
+    background-color: white;
+    border: 3px solid rgba(74,74,74,0.3);
+    color: rgba(74,74,74,0.3);
+    border-radius: 5px;
+    height: 55px;
+}
+
+.project-para {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.project-sub-div {
+    margin-left: 0;
+    width: 85%;
+}
+
+.project-sub-div > div {
+    align-items: center;
+    justify-items: center;
+    padding: 10px 2px;
+}
+
+.project-sub-div > div > p:first-child {
+    color: #D8D8D8CC;
+}
+
+.project-sub-div > div > i:first-of-type {
+    color: rgb(106,191,195);
+} 
+
+.project-sub-div > div > p:nth-child(3) {
+    justify-self: start;
+}
+
+.project-sub-div > div > button {
+    border: none;
+    border-radius: 3px;
+    padding: 9px 10px;
+    background-color: #D8D8D8CC;
+}
+
+.question {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question > p:first-child {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.question > p:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.question > button {
+    align-self: center;
+    color: white;
+    width: 210px;
+    height: 60px;
+    background-color: #CC9543;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.footer > div:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer > div:nth-child(2) {
+    align-self: center;
+    justify-self: center;
+}
+
+.social > i {
+    width: 80px;
+    font-size: 25px;
+    color: #CC9543;
+}
+
+.shortcuts a {
+    text-decoration: none;
+}
+
+.shortcuts {
+    align-self: center;
+    display: flex;
+}
+
+.shortcuts  p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.abouts {
+    margin-right: 50px;
 }
